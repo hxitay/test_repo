@@ -6,7 +6,7 @@ To that end, please add the following git configurations to your project so ever
 To .git/config:, add the following:
 ```
 [remote "backup"]
-  url = git@backup.catonetworks.com:dev/project.git
+  url = git@catonetworks.com:dev/project.git
   fetch = +refs/heads/*:refs/remotes/backup/*
 ```
 
